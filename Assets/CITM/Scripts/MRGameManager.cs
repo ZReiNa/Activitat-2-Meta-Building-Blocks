@@ -94,8 +94,9 @@ public class MRGameManager : MonoBehaviour
     [SerializeField] private float panelResetBatteryCost = 20f;
 
     [Tooltip("Local offset from the player's head when the game starts.")]
-    [SerializeField] private Vector3 stagePanelOffset =
-        new Vector3(0.45f, -0.25f, 0.65f);
+    [SerializeField]
+    private Vector3 stagePanelOffset =
+        new Vector3(0.20f, -0.25f, 0.15f);
 
     [Header("Start menu")]
     [Tooltip("The parent object containing the menu and its poke button.")]
@@ -104,8 +105,9 @@ public class MRGameManager : MonoBehaviour
     [SerializeField] private TMP_Text menuText;
 
     [Tooltip("Local offset from the player's head for the start menu.")]
-    [SerializeField] private Vector3 menuOffset =
-        new Vector3(0f, -0.1f, 0.7f);
+    [SerializeField]
+    private Vector3 menuOffset =
+        new Vector3(0f, -0.1f, 0.10f);
 
     [Header("Wrist display")]
     [SerializeField] private TMP_Text wristText;
@@ -613,13 +615,13 @@ public class MRGameManager : MonoBehaviour
 
         menuText.text =
             heading + "\n\n" +
-            $"Defeat {pointsToWin} enemies with the right trigger.\n" +
-            "Enemies change color: defeat them before time runs out.\n" +
-            "Grab energy orbs to recharge.\n" +
-            "Look away from the rare enemy.\n" +
-            $"Poke RESET PANEL before stage 3 ends " +
+            $"Defeat {pointsToWin} enemies with the right controller trigger.\n" +
+            "Enemies change color: defeat them before they turn red.\n" +
+            "Grab energy orbs with side button to recharge.\n" +
+            "Look away from the purple enemy.\n" +
+            $"Touch RESET PANEL before stage 4 " +
             $"(cost: {panelResetBatteryCost:0} battery).\n\n" +
-            "Poke START to play.";
+            "Touch START to play.";
 
         menuRoot.SetActive(true);
     }
@@ -687,14 +689,14 @@ public class MRGameManager : MonoBehaviour
             wristText.text =
                 "YOU WIN!\n" +
                 $"SCORE: {score} / {pointsToWin}\n" +
-                "Poke START or press A";
+                "Touch START or press A";
         }
         else if (state == GameState.Lost)
         {
             wristText.text =
                 "GAME OVER\n" +
                 $"SCORE: {score} / {pointsToWin}\n" +
-                "Poke START or press A";
+                "Touch START or press A";
         }
         else if (state == GameState.Menu)
         {
@@ -705,7 +707,7 @@ public class MRGameManager : MonoBehaviour
             wristText.text =
                 $"BATTERY: {percentage}%\n" +
                 $"SCORE: {score} / {pointsToWin}\n" +
-                "Trigger: fire\n" +
+                "Right Trigger: fire\n" +
                 "Grab orbs: recharge\n" +
                 "A: restart";
         }
