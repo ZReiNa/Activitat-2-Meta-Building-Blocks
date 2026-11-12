@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 97ba60167d294814d816a9b092bfa0d8
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FiberglassHead.001
+    second: {fileID: 2100000, guid: 5945ec91b52b2b949b0aab8a6119649b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FiberglassPelvis.001
+    second: {fileID: 2100000, guid: b1e7acbbe3f05d643852dd89f91e5613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FiberglassTorso.001
+    second: {fileID: 2100000, guid: edb2ae5a4deb9c04aaa34c584f40264a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: acrylic
+    second: {fileID: 2100000, guid: 46e827d8601d99b4dbca5a91b224d345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackFleece.003
+    second: {fileID: 2100000, guid: 1074a034ea07d3a4b81a9fa9dd370f68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackMetal.002
+    second: {fileID: 2100000, guid: 49844914de9d126498323cfa7f787e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackMetal.004
+    second: {fileID: 2100000, guid: de2fa7e3eb1eef24ea36446850177b2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackResin.003
+    second: {fileID: 2100000, guid: 651a1b6b8485e0945a4275e1f7cbb0c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackRubber.003
+    second: {fileID: 2100000, guid: 8e77125924c11354081ffaaaae340678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blueFleece.003
+    second: {fileID: 2100000, guid: 728fbd93769f9824eb6da1adad162297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bonEyeTexture.005
+    second: {fileID: 2100000, guid: 476c2398bc6f8fa45969f1d06e151ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brass.003
+    second: {fileID: 2100000, guid: 1e5fe3a2b94625845a6f3931f18c6553, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper.003
+    second: {fileID: 2100000, guid: 65da3325a12c88c4f8c36398101381be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold.003
+    second: {fileID: 2100000, guid: 6c7029909ae04574682c9385e73c489b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greyMetal.002
+    second: {fileID: 2100000, guid: 786313efdf79a374cb033b16ae910717, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greyMetal.004
+    second: {fileID: 2100000, guid: 6ac6b9c579678be418d58a44088405a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greyMetal.005
+    second: {fileID: 2100000, guid: b515ae19ef8c6704583dc50cb6cb2136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leopardSatinBow.001
+    second: {fileID: 2100000, guid: 321db6dd7efbf23499c2a47c01ea511c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leopardSatinKnot.001
+    second: {fileID: 2100000, guid: 6ce48e008b431814ab95480c1de57940, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paper.001
+    second: {fileID: 2100000, guid: 409a8fa6e33d22a4d8957a9858f48d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paperCBFTag.001
+    second: {fileID: 2100000, guid: 219fa1af95166ed42a4fb8a93921ad60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redSiliconeRubber
+    second: {fileID: 2100000, guid: 6064519349db43c4fb859de0407588ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redThermoPlastic.003
+    second: {fileID: 2100000, guid: 144495b2f0fc0644bb19f958564702cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roughPlastic.003
+    second: {fileID: 2100000, guid: 2c74938a0f1210a42b35de01c44a0968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silver.003
+    second: {fileID: 2100000, guid: 1b4eab9edb993ed4e84c9782de893fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solderMask.003
+    second: {fileID: 2100000, guid: 84ecb920fd059804fba751e52edd061a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: threadedPlastic.003
+    second: {fileID: 2100000, guid: c4bc25b37bfd5cf4587c4616da926b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteFleece.003
+    second: {fileID: 2100000, guid: e8a6204199e8c1f40b9b9f3ce66e17bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteMetal.003
+    second: {fileID: 2100000, guid: aa5fbc7c822c562438d953b3f1a236a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whitePlasticAcrylic.002
+    second: {fileID: 2100000, guid: b03ec5d32f554b4449bcf6ca8463b386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteResin.003
+    second: {fileID: 2100000, guid: a51ec3f01a5c7f74fb0940d096600990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteThermoPlastic.003
+    second: {fileID: 2100000, guid: e4c94cc5c2c4b7e4d9c3a7e02672f95e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiteThinFabric.002
+    second: {fileID: 2100000, guid: ad8eb040c12963e4f9b4a515d5729af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellowThermoPlastic.003
+    second: {fileID: 2100000, guid: 809f96cf0bd50934e9ef64bce50e142b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GWC Fibreglass_Metallic
+    second: {fileID: 2800000, guid: 3b046891ad30c1349a833bb57b21ba53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GWC Fibreglass_Normal
+    second: {fileID: 2800000, guid: 31b028ac94ea6614397cfeea330efcf8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bonEyeImage
+    second: {fileID: 2800000, guid: a2b57fd340e7f6a419bea6e447218ade, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
